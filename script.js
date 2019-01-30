@@ -1,10 +1,7 @@
-        var myArray = ['Joy', 'Happiness', 'Peace', 'Hope', 'Javascript', 'Html', 'Css', 'Love'];
-
-        var rand = Math.floor(Math.random() * myArray.length);
-
-        var concat = myArray[rand];
-
-        var d = new Date();
+var myArray = ['Joy', 'Happiness', 'Peace', 'Hope', 'Javascript', 'Html', 'Css', 'Love'];
+var rand = Math.floor(Math.random() * myArray.length);
+var concat = myArray[rand];
+var d = new Date();
 
         var n = d.getDay()
 
