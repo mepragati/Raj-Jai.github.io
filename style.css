@@ -30,38 +30,13 @@ div.developed {
     text-align: right;
 }
 
-.developedtext,
-.developedlink {
+.developedtext {
     font-family: 'bangers', monospace;
     font-size: 20px;
     word-spacing: 3px;
 }
 
 #love {}
-
-a.developedlink:active,
-a.developedlink:visited,
-a.developedlink:link {
-    font-size: large;
-    font-family: 'bangers', monospace;
-    padding: 6px;
-    color: black;
-    text-decoration: none;
-    transition: 0.5s;
-    margin-left: 6px;
-    background: linear-gradient(to bottom, transparent 50%, #6a3093 25%, #a044ff 25%);
-    background-size: auto 201%;
-}
-
-a.developedlink:hover {
-    color: white;
-    border-bottom: 2px solid black;
-    padding: 8px 6px;
-    background-position: bottom center;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
-
-}
 
 /*---------------TABLE------------*/
 table,
@@ -168,6 +143,7 @@ td.gap {
 
 footer {
     text-align: center;
+    margin-top: 5px;
 }
 
 #sunday {
@@ -189,4 +165,33 @@ footer {
 th {
     color: black;
     background-color: #7affc1;
+}
+
+.fab{
+    font-size: 26px;
+    padding: 10px;
+    margin: 0;
+    background:black;
+    color:white;
+    margin: 2 0 ;
+    transition:0.5s;
+}
+.fab:hover{
+border-bottom:1px solid black;   
+    margin-bottom:-1px;
+}
+
+.fa-facebook-f:hover{
+    background: #3b5998;
+    color: white;
+}
+
+.fa-quora:hover{
+    background: #a62100;
+    color: white;
+    
+}
+.fa-github:hover{
+     background: #333;
+    color: white;
 }
