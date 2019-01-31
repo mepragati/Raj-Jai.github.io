@@ -3,171 +3,257 @@
 <head>
 
     <link href="https://fonts.googleapis.com/css?family=Bangers|Lobster|Righteous" rel="stylesheet">
-    <link rel="shortcut icon" href="favicon/favicon.png" />
-    <link rel="stylesheet" href="style.css">
-    <title>Class VIII "A" Routine</title>
+    <link rel="shortcut icon" href="https://cdn3.iconfinder.com/data/icons/back-to-school-round-frame/256/schoolsetflatround-01-512.png" />
+     <title>Class VIII "A" Routine</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
+    <title>Examination Time Table 2018-19</title>
+
+    <style type="text/css">
+        /*-------BODY-------*/
+        body {
+            margin: 5;
+            padding: 5;
+            background: linear-gradient(to right, #4cb8c4, #3cd3ad);
+            font-family: 'Righteous';
+        }
+
+        /*-----------------HEADER-------------------*/
+
+        div.head {
+            text-align: center;
+        }
+
+        a.schoollink {
+            text-decoration: none;
+            color: black;
+            font-weight: bolder;
+            transition: 0.2s;
+        }
+
+        a.schoollink:hover {
+            border-bottom: 2px double blue;
+        }
+
+        div.developed {
+            font-family: 'bangers', monospace;
+            margin-top: 9px;
+            text-align: center;
+        }
+
+        .developedtext {
+            font-family: 'bangers', monospace;
+            font-size: 20px;
+            word-spacing: 3px;
+            text-align: center;
+        }
+
+
+        /*---------------TABLE------------*/
+        table,
+        th,
+        td {
+            text-align: center;
+            border: 1px solid #17d6e8;
+            border-collapse: collapse;
+        }
+
+        th {
+            color: black;
+            background-color: #7affc1;
+        }
+
+        table {
+            background-image: linear-gradient(to bottom right, #f8ff3d, #f1f1c1);
+            margin: 9 auto;
+            max-width: 89%;
+            border-radius: 20px;
+            overflow: hidden;
+
+        }
+
+        td {
+            padding: 7px;
+        }
+
+
+        /*-----------------EXTRA CSS TABLE--------------*/
+
+        td.time {
+            background-color: darksalmon;
+            font-family: 'bangers', monospace;
+            font-size: 20px;
+        }
+
+
+        footer {
+            text-align: center;
+        }
+
+        .current {
+            background: rgb(0, 201, 128);
+            background: linear-gradient(90deg, rgba(0, 201, 128, 1) 0%, rgba(0, 157, 179, 1) 51%, rgba(0, 173, 160, 1) 100%);
+
+            color: white;
+        }
+
+        th {
+            color: black;
+            background-color: #7affc1;
+        }
+
+        button {
+            background-color: transparent;
+            border: 0.5px solid trasparent;
+            font-family: 'bangers', monospace;
+            font-size: 18px;
+        }
+        
+        .fab{
+    font-size: 26px;
+    padding: 10px;
+    margin: 0;
+    background:black;
+    color:white;
+    margin: 2 0 ;
+    transition:0.5s;
+}
+.fab:hover{
+border-bottom:1px solid black;   
+    margin-bottom:-1px;
+}
+
+.fa-facebook-f:hover{
+    background: #3b5998;
+    color: white;
+}
+
+.fa-quora:hover{
+    background: #a62100;
+    color: white;
+    
+}
+.fa-github:hover{
+     background: #333;
+    color: white;
+}
+
+    </style>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 
-<body onload="random()">
+<body>
 
 
     <div class="head"> <a class="schoollink" href="http://davranchi.com" target="_blank">D.A.V PUBLIC SCHOOL, DHURWA, RANCHI-4 </a>
         <br>Class-8 "A"</div>
-    <div id="sunday"></div>
     <table>
-
-        <th>DAY</th>
-        <th>1 <sup> st</sup>
-        </th>
-        <th>2<sup>nd</sup>
-        </th>
-        <th>3<sup>rd</sup>
-        </th>
-        <th>4<sup>th</sup>
-        </th>
-        <TH>LUNCH</TH>
-        <th>5<sup>th</sup>
-        </th>
-        <th>6<sup>th</sup>
-        </th>
-        <th>7<sup>th</sup>
-        </th>
-
-        <tr id="monday">
-            <th>Monday</th>
-            <td>Maths <span class="outer"><span class="inner">Arvind Sir</span></span>
-            </td>
-            <td>Chemistry<span class="outer"><span class="inner">Deepak Pandey Sir</span></span>
-            </td>
-            <td>English Lit<span class="outer"> <span class="inner">Sujata Mam</span> </span>
-            </td>
-            <td>Sanskrit M.C.B<span class="outer"><span class="inner"> Nitu Mam</span></span>
-            </td>
-            <td class="gap">L</td>
-            <td>Hindi<span class="outer"> <span class="inner">K.K Bir Mam </span></span>
-            </td>
-            <td>Geography<span class="outer"><span class="inner">Anamika Mam</span></span>
-            </td>
-            <td>I.T<span class="fbouter"><a class="fbinner" target="_blank" href="https://www.fb.me/jayashree.bhadani">Jayshreee Mam</a></span>
-            </td>
-        </tr>
-
-        <tr id="tuesday">
-            <th>Tuesday</th>
-            <td>Maths<span class="outer"><span class="inner">Arvind Sir</span></span>
-            </td>
-            <td>Chemistry<span class="outer"><span class="inner">Deepak Pandey Sir</span></span>
-            </td>
-            <td>English Lit<span class="outer"><span class="inner">Sujata Mam</span> </span>
-            </td>
-            <td>Sanskrit M.C.B<span class="outer"><span class="inner">Nitu Mam</span> </span>
-            </td>
-            <td class="gap">U</td>
-            <td>Hindi<span class="outer"><span class="inner">K.K Bir Mam</span></span>
-            </td>
-            <td>Geography<span class="outer"><span class="inner">Anamika Mam</span> </span>
-            </td>
-            <td>Yoga/Karate<span class="outer"><span class="inner">Nand Kishore Sir</span></span>
-            </td>
-        </tr>
-
-        <tr id="wednesday">
-            <th>Wednesday</th>
-            <td>Physics<span class="fbouter"><a class="fbinner" target="_blank" href="https://www.fb.me/sumati.roy.3">Sumi Roy Mam</a></span>
-            </td>
-            <td>Civics<span class="outer"><span class="inner">Krishna Mam</span></span>
-            </td>
-            <td>English M.C.B<span class="outer"><span class="inner">Sujata Mam </span> </span>
-            </td>
-            <td>Hindi<span class="outer"> <span class="inner">K.K Bir Mam</span></span>
-            </td>
-
-            <td class="gap">N</td>
-
-            <td>Drawing<span class="outer"><span class="inner">Preeti Mam</span></span>
-            </td>
-            <td>Maths<span class="outer"><span class="inner">Arvind Sir</span></span>
-            </td>
-            <td>Game⚽<span class="fbouter"><a class="fbinner" target="_blank" href="https://www.fb.me/profile.php?id=100001716355240">Chandan Sir</a></span>
-            </td>
-        </tr>
-
-        <tr id="thursday">
-            <th>Thursday</th>
-            <td>Physics<span class="fbouter"><a class="fbinner" target="_blank" href="https://www.fb.me/sumati.roy.3">Sumi Roy Mam</a></span>
-            </td>
-            <td>Civics<span class="outer"><span class="inner">Krishna Mam</span> </span>
-            </td>
-            <td>English M.C.B<span class="outer"><span class="inner">Sujata Mam </span></span>
-            </td>
-            <td>Sanskrit Gra<span class="outer"><span class="inner">Nitu Mam</span></span>
-            </td>
-            <td class="gap">C</td>
-            <td>Hindi<span class="outer"><span class="inner">K.K Bir Mam</span> </span>
-            </td>
-            <td>Maths<span class="outer"><span class="inner">Arvind Sir</span></span>
-            </td>
-            <td>Maths Lab<span class="outer"><span class="inner">Arvind Sir</span></span>
-            </td>
-        </tr>
-        <tr id="friday">
-            <th>Friday</th>
-            <td>English Gra/P.P<span class="outer"><span class="inner"> Sujata Mam</span> </span>
-            </td>
-            <td>Maths<span class="outer"><span class="inner">Arvind Sir</span></span>
-            </td>
-            <td>Biology<span class="outer"><span class="inner">Sunita Mam</span> </span>
-            </td>
-            <td>Sanskrit Gra<span class="outer"> <span class="inner">Nitu Mam</span></span>
-            </td>
-            <td class="gap">H</td>
-            <td>I.T<span class="fbouter"> <a class="fbinner" target="_blank" href="https://www.fb.me/jayashree.bhadani">Jayshree Mam</a></span>
-            </td>
-            <td>History<span class="outer"><span class="inner">C.B.Singh Sir</span></span>
-            </td>
-            <td>Science Lab<span class="outer"><span class="inner">Deepak Pandey Sir</span> </span>
-            </td>
-        </tr>
-
-        <tr id="saturday">
-            <th>Saturday</th>
-            <td>English W.B<span class="outer"><span class="inner">Sujata Mam</span></span>
-            </td>
-            <td>Maths<span class="outer"><span class="inner">Arvind Sir</span></span>
-            </td>
-            <td>M.Sc<span class="outer"><span class="inner">C.B.Singh Sir</span> </span>
-            </td>
-            <td>Biology<span class="outer"><span class="inner">Sunita Mam</span> </span>
-            </td>
-            <td class="gap">!</td>
-            <td>G.K<span class="outer"><span class="inner">O.P.Kashyap Sir</span></span>
-            </td>
-            <td>History<span class="outer"><span class="inner">C.B.Singh Sir</span></span>
-            </td>
-            <td>Library<span class="fbouter"><a class="fbinner" target="_blank" href="https://www.fb.me/swetasingh.pankaj">Sweta Mam</a></span>
-            </td>
+        <tr>
+            <th>Date</th>
+            <th>Subject</th>
+            <th>Syllabus</th>
         </tr>
 
         <tr>
-            <th>Time</th>
-            <td class="time">9:00-9:45</td>
-            <td class="time">9:45-10:45</td>
-            <td class="time">10:45-11:30</td>
-            <td class="time">11:30-12:15</td>
-            <td class="time">12:15-12:30</td>
-            <td class="time">12:30-1:15</td>
-            <td class="time">1:15-1:50</td>
-            <td class="time">2:50-2:25</td>
+            <th>11/2/19 <br> Monday</th>
+            <td>I.T</td>
+            <td><button onclick="it()">View</button></td>
         </tr>
+
+        <tr>
+            <th>12/2/19 <br> Tuesday</th>
+            <td>M.Sc</td>
+            <td><button onclick="msc()">View</button></td>
+        </tr>
+
+        <tr>
+            <th>13/2/19 <br> Wednesday</th>
+            <td>G.K</td>
+            <td><button onclick="gk()">View</button></td>
+        </tr>
+
+        <tr>
+            <th>16/2/19 <br> Saturday </th>
+            <td>S.St</td>
+            <td><button onclick="sst()">View</button></td>
+        </tr>
+
+        <tr>
+            <th>19/2/19<br>Tuesday</th>
+            <td>Science</td>
+            <td><button onclick="science()">View</button></td>
+        </tr>
+
+        <tr>
+            <th>21/2/19<br>Thursday</th>
+            <td>Hindi</td>
+            <td><button onclick="hindi()">View</button></td>
+        </tr>
+
+        <tr>
+            <th>23/2/19<br>Saturday</th>
+            <td>Maths</td>
+            <td><button onclick="maths()">View</button></td>
+        </tr>
+
+        <tr>
+            <th>25/2/19<br>Monday</th>
+            <td>Sanskrit</td>
+            <td><button onclick="sanskrit()">View</button></td>
+        </tr>
+
+        <tr>
+            <th>27/2/19<br>Wednesday</th>
+            <td>English</td>
+            <td><button onclick="english()">View</button></td>
+        </tr>
+
+
     </table>
-    <div class="developedtext" >Made with <span id="love">Love</span> by Jai Raj </div> <br> 
+   <div class="developedtext" >Made with <span id="love">Love</span> by Jai Raj </div> <br> 
     <footer>Follow me on<br><a href="https://www.facebook.com/imjairaj"   target="_blank" ><i class="fab fa-facebook-f"></i></a><a href="https://www.quora.com/profile/Jai-Raj-126"  target="_blank"><i class="fab fa-quora"></i></a><a href="https://github.com/Raj-Jai"target="_blank"><i class="fab fa-github"></i></a><br>
     All right reserved by Jai Raj.Copyright<sup>©</sup> Jai Raj</footer>
 
-    <script src="script.js"> </script>
+    <script type="text/javascript">
+        function it() {
+            alert(" Syllabus :- \n Chapter - 7 to 10 \n Page no= 163");
+        }
+
+        function msc() {
+            alert("Syllabus :- \n Chapter - 1 to 12 ");
+        }
+
+        function gk() {
+            alert("Syllabus :- \n Chapter - 26 to 48");
+        }
+
+        function sst() {
+            alert("Syllabus :- \n History - Chapter - 1,6,8,12,13,14. \n Civics - Chapter - 1 to  5 Except Q&A, 6 to 10 Everthing \n Geography - Chapter - 1 to 4 Except LAQ, 5 to 8 Everything ");
+        }
+
+        function science() {
+            alert("Syllabus :- \n Physics - Chapter - 10 to 16 \n Chemistry - Chapter - 4,5,17,18 \n Biology - Chapter - 1,2,6,7,8,9");
+        }
+
+        function hindi() {
+            alert("Syllabus :- \n हिंदी - पाठ- 8 to 24 बस व्याकरण <मुख्य पाठ - 15,16,18,19,21,23,24> \n हिंदी व्याकरण- Page no - 131,137,190 का 6-7-8,162,156,भाववाचक संघ्या,संधि,वाक्य-विचार,मुहावरे,वचन भिन्नार्थक,समास,लिंग,वाच्य,काल,क्रिया-विशेसन,किसने-किससे कहा,वाक्य,कवि और लेखक के नाम, तत्षम-तद्भव,उपसर्ग-प्रत्यय,लेख-6,7,8");
+        }
+
+        function maths() {
+            alert("Syllabus :- \n Chapter - 1 to 25.");
+        }
+
+        function sanskrit() {
+            alert("Syllabus :- \n संस्कृत - पाठ - 12,13,14,15,5 का श्लोक \n संस्कृत व्याकरण -शब्दरूप - फलम्,माता , संधि , संख्यावाची , धातुरूप -ग़म,नम लट और लोट लाकर में ,अभ्यास भी ");
+        }
+
+        function english() {
+            alert("Syllabus :- \n Litreture - Unit - 9,10,11,12 Q&A BtL \n M.C.B - Unit - 11 to 15 Q&A BtL \n Gra/W.B/Electra - choose the correct words,Sound of things ,Letter,Story-Writing,error,E-mail,Article,Revision,Direct and Indirect speech.");
+        }
+
+    </script>
 </body>
 
 </html>
