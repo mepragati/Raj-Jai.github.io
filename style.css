@@ -98,7 +98,8 @@
             font-size: 18px;
         }
         
-        .fab{
+   
+.fab , .fas{
     font-size: 26px;
     padding: 10px;
     margin: 0;
@@ -107,9 +108,9 @@
     margin: 2 0 ;
     transition:0.5s;
 }
-.fab:hover{
-border-bottom:1px solid black;   
-    margin-bottom:-1px;
+.fab:hover , .fas:hover{
+border-bottom:2px solid black;   
+    margin-bottom:-2px;
 }
 
 .fa-facebook-f:hover{
@@ -124,5 +125,10 @@ border-bottom:1px solid black;
 }
 .fa-github:hover{
      background: #333;
+    color: white;
+}
+
+.fa-at:hover{
+   background:#0442bc;
     color: white;
 }
