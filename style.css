@@ -1,134 +1,137 @@
+/*-------BODY-------*/
+body {
+    margin: 5;
+    padding: 5;
+    background: linear-gradient(to right, #4cb8c4, #3cd3ad);
+    font-family: 'Righteous';
+}
 
-        /*-------BODY-------*/
-        body {
-            margin: 5;
-            padding: 5;
-            background: linear-gradient(to right, #4cb8c4, #3cd3ad);
-            font-family: 'Righteous';
-        }
+/*-----------------HEADER-------------------*/
 
-        /*-----------------HEADER-------------------*/
+div.head {
+    text-align: center;
+}
 
-        div.head {
-            text-align: center;
-        }
+a.schoollink {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    transition: 0.2s;
+}
 
-        a.schoollink {
-            text-decoration: none;
-            color: black;
-            font-weight: bolder;
-            transition: 0.2s;
-        }
+a.schoollink:hover {
+    border-bottom: 2px double blue;
+}
 
-        a.schoollink:hover {
-            border-bottom: 2px double blue;
-        }
+div.developed {
+    font-family: 'bangers', monospace;
+    margin-top: 9px;
+    text-align: center;
+}
 
-        div.developed {
-            font-family: 'bangers', monospace;
-            margin-top: 9px;
-            text-align: center;
-        }
-
-        .developedtext {
-            font-family: 'bangers', monospace;
-            font-size: 20px;
-            word-spacing: 3px;
-            text-align: center;
-        }
-
-
-        /*---------------TABLE------------*/
-        table,
-        th,
-        td {
-            text-align: center;
-            border: 1px solid #17d6e8;
-            border-collapse: collapse;
-        }
-
-        th {
-            color: black;
-            background-color: #7affc1;
-        }
-
-        table {
-            background-image: linear-gradient(to bottom right, #f8ff3d, #f1f1c1);
-            margin: 9 auto;
-            max-width: 89%;
-            border-radius: 20px;
-            overflow: hidden;
-
-        }
-
-        td {
-            padding: 7px;
-        }
+.developedtext {
+    font-family: 'bangers', monospace;
+    font-size: 20px;
+    word-spacing: 3px;
+    text-align: center;
+}
 
 
-        /*-----------------EXTRA CSS TABLE--------------*/
+/*---------------TABLE------------*/
+table,
+th,
+td {
+    text-align: center;
+    border: 1px solid #17d6e8;
+    border-collapse: collapse;
+}
 
-        td.time {
-            background-color: darksalmon;
-            font-family: 'bangers', monospace;
-            font-size: 20px;
-        }
+th {
+    color: black;
+    background-color: #7affc1;
+}
+
+table {
+    background-image: linear-gradient(to bottom right, #f8ff3d, #f1f1c1);
+    margin: 9 auto;
+    max-width: 89%;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+
+td {
+    padding: 7px;
+}
 
 
-        footer {
-            text-align: center;
-        }
+/*-----------------EXTRA CSS TABLE--------------*/
 
-        .current {
-            background: rgb(0, 201, 128);
-            background: linear-gradient(90deg, rgba(0, 201, 128, 1) 0%, rgba(0, 157, 179, 1) 51%, rgba(0, 173, 160, 1) 100%);
+td.time {
+    background-color: darksalmon;
+    font-family: 'bangers', monospace;
+    font-size: 20px;
+}
 
-            color: white;
-        }
 
-        th {
-            color: black;
-            background-color: #7affc1;
-        }
+footer {
+    text-align: center;
+}
 
-        button {
-            background-color: transparent;
-            border: 0.5px solid trasparent;
-            font-family: 'bangers', monospace;
-            font-size: 18px;
-        }
-        
-   
-.fab , .fas{
+.current {
+    background: rgb(0, 201, 128);
+    background: linear-gradient(90deg, rgba(0, 201, 128, 1) 0%, rgba(0, 157, 179, 1) 51%, rgba(0, 173, 160, 1) 100%);
+
+    color: white;
+}
+
+th {
+    color: black;
+    background-color: #7affc1;
+}
+
+button {
+    background-color: transparent;
+    border: 0.5px solid trasparent;
+    font-family: 'bangers', monospace;
+    font-size: 18px;
+}
+
+
+.fab,
+.fas {
     font-size: 26px;
     padding: 10px;
     margin: 0;
-    background:black;
-    color:white;
-    margin: 2 0 ;
-    transition:0.5s;
-}
-.fab:hover , .fas:hover{
-border-bottom:2px solid black;   
-    margin-bottom:-2px;
+    background: black;
+    color: white;
+    margin: 2 0;
+    transition: 0.5s;
 }
 
-.fa-facebook-f:hover{
+.fab:hover,
+.fas:hover {
+    border-bottom: 2px solid black;
+    margin-bottom: -2px;
+}
+
+.fa-facebook-f:hover {
     background: #3b5998;
     color: white;
 }
 
-.fa-quora:hover{
+.fa-quora:hover {
     background: #a62100;
     color: white;
-    
+
 }
-.fa-github:hover{
-     background: #333;
+
+.fa-github:hover {
+    background: #333;
     color: white;
 }
 
-.fa-at:hover{
-   background:#0442bc;
+.fa-at:hover {
+    background: #0442bc;
     color: white;
 }
