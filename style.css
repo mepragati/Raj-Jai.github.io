@@ -2,7 +2,7 @@
 body {
     margin: 5;
     padding: 5;
-    background: linear-gradient(to right, #4cb8c4, #3cd3ad);
+   background: linear-gradient(75deg, #6d78ff, #00ffb8);
     font-family: 'Righteous';
 }
 
@@ -52,7 +52,7 @@ th {
 }
 
 table {
-    background-image: linear-gradient(to bottom right, #f8ff3d, #f1f1c1);
+    background: linear-gradient(to right bottom, #6d78ff, #00ffb8);
     margin: 9 auto;
     max-width: 89%;
     border-radius: 20px;
@@ -88,13 +88,24 @@ footer {
 th {
     color: black;
     background-color: #7affc1;
+    padding: 2 4;
 }
 
 button {
-    background-color: transparent;
+    padding: 4 6;
+  background-image: linear-gradient(-225deg, #D4FFEC 0%, #57F2CC 48%, #4596FB 100%);
+    background-size: 200%;
+    background-position: left;
     border: 0.5px solid trasparent;
     font-family: 'bangers', monospace;
     font-size: 18px;
+    border: 1px solid black;
+    transition: 0.5s;
+    border-radius: 6px;
+}
+
+button:hover{
+    background-position:right;
 }
 
 
