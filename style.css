@@ -3,6 +3,7 @@ body {
     margin: 5;
     padding: 5;
    background: linear-gradient(75deg, #6d78ff, #00ffb8);
+    background-repeat: no-repeat;
     font-family: 'Righteous';
 }
 
@@ -46,11 +47,6 @@ td {
     border-collapse: collapse;
 }
 
-th {
-    color: black;
-    background-color: #7affc1;
-}
-
 table {
     background: linear-gradient(to right bottom, #6d78ff, #00ffb8);
     margin: 9 auto;
@@ -67,27 +63,14 @@ td {
 
 /*-----------------EXTRA CSS TABLE--------------*/
 
-td.time {
-    background-color: darksalmon;
-    font-family: 'bangers', monospace;
-    font-size: 20px;
-}
-
 
 footer {
     text-align: center;
 }
 
-.current {
-    background: rgb(0, 201, 128);
-    background: linear-gradient(90deg, rgba(0, 201, 128, 1) 0%, rgba(0, 157, 179, 1) 51%, rgba(0, 173, 160, 1) 100%);
-
-    color: white;
-}
-
 th {
     color: black;
-    background-color: #7affc1;
+  background:transparent;
     padding: 2 4;
 }
 
