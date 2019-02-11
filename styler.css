@@ -1,0 +1,229 @@
+/*-------BODY-------*/
+body {
+    margin: 5;
+    padding: 5;
+   background: linear-gradient(to right bottom, #6d78ff, #00ffb8);
+    font-family: 'Righteous';
+}
+
+/*-----------------HEADER-------------------*/
+
+div.head {
+    text-align: center;
+}
+
+a.schoollink {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    transition: 0.2s;
+}
+
+a.schoollink:hover {
+    border-bottom: 2px double blue;
+}
+
+.developedtext {
+    font-family: 'bangers', monospace;
+    font-size: 18px;
+    word-spacing: 3px;
+    margin-top: 2px;
+    margin-bottom: -4px;
+    text-align: center;
+}
+
+#love {}
+
+/*---------------TABLE------------*/
+table,
+th,
+td {
+    text-align: center;
+    border: 1px solid #17d6e8;
+    border-collapse: collapse;
+}
+
+
+table {
+  background: linear-gradient(to right bottom, #6d78ff, #00ffb8);
+    margin: 2% 15% 0% 15%;
+    max-width: 89%;
+    border-radius: 30px;
+    overflow: hidden;
+   box-shadow: 2px 2px 2px; 
+
+}
+
+td {
+    padding: 7px;
+}
+
+/*-------------TABLE SIMPLE DATA-------------------*/
+td .outer {
+    font-family: 'Lobster', cursive;
+    visibility: hidden;
+    text-align: center;
+    width: 170px;
+    position: absolute;
+
+}
+
+td:hover .outer {
+    visibility: visible;
+}
+
+.inner {
+    background-image: linear-gradient(to right, #880ef9 20%, #9a0ef9 50%, #fff 50%);
+    padding: 7px;
+    color: #fff;
+    border: 0.5px solid black;
+    background-size: 200% auto;
+    border-radius: 12px;
+}
+
+.inner:hover {
+    color: #880ef9;
+    background-position: right center;
+    transition: 0.5s;
+}
+
+/*------------------TABLE TELEPHONE DATA---------------*/
+td .telouter {
+    font-family: 'Lobster', cursive;
+    visibility: hidden;
+    text-align: center;
+    width: 170px;
+    position: absolute;
+}
+
+td:hover .telouter {
+    visibility: visible;
+}
+
+a.telinner {
+    background-image: linear-gradient(to right, #2066f3 50%, #fff 50%);
+    padding: 7px;
+    text-decoration: none;
+    color: white;
+    border: 0.5px solid #2066f3;
+    background-size: 200% auto;
+    border-radius: 12px;
+
+
+}
+
+a:hover.telinner {
+    color: #2066f3;
+    background-position: right center;
+    transition: 0.5s;
+
+}
+
+/*------------------TABLE FACEBOOK DATA---------------*/
+
+
+td .fbouter {
+    font-family: 'Lobster', cursive;
+    visibility: hidden;
+    text-align: center;
+    width: 170px;
+    position: absolute;
+}
+
+td:hover .fbouter {
+    visibility: visible;
+}
+
+a.fbinner {
+    background-image: linear-gradient(to right, #3B5998 50%, #fff 50%);
+    padding: 7px;
+    text-decoration: none;
+    color: white;
+    border: 0.5px solid #3b5998;
+    background-size: 200% auto;
+    border-radius: 12px;
+
+
+}
+
+a:hover.fbinner {
+    color: #3B5998;
+    background-position: right center;
+    transition: 0.5s;
+
+}
+
+/*-----------------EXTRA CSS TABLE--------------*/
+
+.thead{
+    background: linear-gradient(270deg, #6d78ff,#22f0f0,#2ee4ea, #20f8b7);
+}
+
+td.time {
+    font-family: 'bangers', monospace;
+    font-size: 20px;
+}
+
+td.gap {
+    font-weight: bolder;
+    font-size: 40PX;
+}
+
+footer {
+    text-align: center;
+    margin: 0 -8;
+}
+
+#sunday {
+    text-align: center;
+    color: darkorchid;
+    font-family: 'bangers', monospace;
+    margin: 5px;
+    font-size: 22px;
+
+}
+
+.current {
+    background: rgb(0, 201, 128);
+    background: linear-gradient(90deg, rgba(0, 201, 128, 1) 0%, rgba(0, 157, 179, 1) 51%, rgba(0, 173, 160, 1) 100%);
+
+    color: white;
+}
+
+.fab,
+.fas {
+    font-size: 26px;
+    padding: 10px;
+    margin: 0;
+    background: black;
+    color: white;
+    margin: 2 0;
+    transition: 0.5s;
+}
+
+.fab:hover,
+.fas:hover {
+    border-bottom: 2px solid black;
+    margin-bottom: -2px;
+}
+
+.fa-facebook-f:hover {
+    background: #3b5998;
+    color: white;
+}
+
+.fa-quora:hover {
+    background: #a62100;
+    color: white;
+
+}
+
+.fa-github:hover {
+    background: #333;
+    color: white;
+}
+
+.fa-at:hover {
+    background: #0442bc;
+    color: white;
+}
