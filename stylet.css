@@ -1,0 +1,131 @@
+/*-------BODY-------*/
+body {
+    margin: 5;
+    padding: 5;
+   background: linear-gradient(75deg, #6d78ff, #00ffb8);
+    background-repeat: no-repeat;
+    font-family: 'Righteous';
+}
+
+/*-----------------HEADER-------------------*/
+
+div.head {
+    text-align: center;
+}
+
+a.schoollink {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    transition: 0.2s;
+}
+
+a.schoollink:hover {
+    border-bottom: 2px double blue;
+}
+
+div.developed {
+    font-family: 'bangers', monospace;
+    margin-top: 9px;
+    text-align: center;
+}
+
+.developedtext {
+    font-family: 'bangers', monospace;
+    font-size: 20px;
+    word-spacing: 3px;
+    text-align: center;
+}
+
+
+/*---------------TABLE------------*/
+table,
+th,
+td {
+    text-align: center;
+    border: 1px solid #17d6e8;
+    border-collapse: collapse;
+}
+
+table {
+    background: linear-gradient(to right bottom, #6d78ff, #00ffb8);
+    margin: 9 auto;
+    max-width: 89%;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+
+td {
+    padding: 7px;
+}
+
+
+/*-----------------EXTRA CSS TABLE--------------*/
+
+
+footer {
+    text-align: center;
+}
+
+th {
+    color: black;
+  background:transparent;
+    padding: 2 4;
+}
+
+button {
+    padding: 4 6;
+  background-image: linear-gradient(-225deg, #D4FFEC 0%, #57F2CC 48%, #4596FB 100%);
+    background-size: 200%;
+    background-position: left;
+    border: 0.5px solid trasparent;
+    font-family: 'bangers', monospace;
+    font-size: 18px;
+    border: 1px solid black;
+    transition: 0.5s;
+    border-radius: 6px;
+}
+
+button:hover{
+    background-position:right;
+}
+
+
+.fab,
+.fas {
+    font-size: 26px;
+    padding: 10px;
+    margin: 0;
+    background: black;
+    color: white;
+    margin: 2 0;
+    transition: 0.5s;
+}
+
+.fab:hover,
+.fas:hover {
+    border-bottom: 2px solid black;
+    margin-bottom: -2px;
+}
+
+.fa-facebook-f:hover {
+    background: #3b5998;
+    color: white;
+}
+
+.fa-quora:hover {
+    background: #a62100;
+    color: white;
+
+}
+
+.fa-github:hover {
+    background: #333;
+    color: white;
+}
+
+.fa-at:hover {
+    background:#ac14ff;
+    color: white;
+}
