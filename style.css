@@ -4,6 +4,7 @@ body {
     padding: 5;
    background: linear-gradient(to right bottom, #6d78ff, #00ffb8);
     font-family: 'Righteous';
+    background-size:110% 110%; 
 }
 
 /*-----------------HEADER-------------------*/
