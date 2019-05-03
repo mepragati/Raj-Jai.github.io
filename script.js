@@ -1,4 +1,4 @@
-var myArray = ['Joy', 'Happiness', 'Peace', 'Hope', 'Javascript', 'Html', 'Css', 'Love'];
+var myArray = ['Joy', 'Happiness', 'Peace', 'Hope', 'Javascript', 'Html', 'Css'];
 var rand = Math.floor(Math.random() * myArray.length);
 var concat = myArray[rand];
 var d = new Date();
