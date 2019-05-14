@@ -153,7 +153,7 @@ a:hover.fbinner {
     transition: 0.5s;
 
 }
-
+    
 /*-----------------EXTRA CSS TABLE--------------*/
 
 .thead{
@@ -185,10 +185,11 @@ footer {
 }
 
 .current {
-    background: rgb(0, 201, 128);
-    background: linear-gradient(90deg, rgba(0, 201, 128, 1) 0%, rgba(0, 157, 179, 1) 51%, rgba(0, 173, 160, 1) 100%);
+   background: #4776E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #8E54E9, #4776E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #8E54E9, #4776E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-    color: white;
+    color:#dbdbdb;
 }
 
 .fab,
