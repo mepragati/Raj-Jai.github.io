@@ -13,14 +13,14 @@ body {
 div.head {
     text-align: center;
     color: #d3d3d3;
-    transition: 5s;
+    transition: 2s;
 }
 
 a.schoollink {
     text-decoration: none;
    color: #d3d3d3;
     font-weight: bolder;
-    transition: 5s;
+    transition: 2s;
 }
 
 a.schoollink:hover {
@@ -35,7 +35,7 @@ a.schoollink:hover {
     margin-top: 2px;
     margin-bottom: -4px;
     text-align: center;
-    transition: 5s;
+    transition: 2s;
 }
 
 #love {}
@@ -58,7 +58,7 @@ table {
     overflow: hidden;
     box-shadow: 2px 2px 2px;
     color: #d3d3d3;
-    transition: 5s;
+    transition: 2s;
 }
 
 td {
@@ -180,7 +180,7 @@ footer {
     text-align: center;
     margin: 0 -8;
     color: #d3d3d3;
-    transition: 5s;
+    transition: 2s;
 }
 
 #sunday {
