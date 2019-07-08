@@ -2,7 +2,7 @@
 body {
     margin: 5;
     padding: 5;
-    background: linear-gradient(to right,#6d78ff, #00ffb8);
+    background: linear-gradient(to right, #6d78ff, #00ffb8);
     font-family: 'Righteous';
     background-size: 110% 110%;
 }
@@ -53,7 +53,7 @@ table {
     max-width: 89%;
     border-radius: 30px;
     overflow: hidden;
-    box-shadow: 2px 2px 2px;
+    box-shadow:2px 2px 2px ; 
     transition: 2s;
 
 }
@@ -185,6 +185,7 @@ footer {
     font-family: 'bangers', monospace;
     margin: 5px;
     font-size: 22px;
+    transition: 2s;
 
 }
 
@@ -253,7 +254,7 @@ button.day {
 
 
 button.night {
-    margin-left:93%;
+    margin-left: 93%;
     margin-top: -20;
     margin-bottom: -20;
     font-size: 20px;

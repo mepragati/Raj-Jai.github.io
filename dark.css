@@ -18,7 +18,7 @@ div.head {
 
 a.schoollink {
     text-decoration: none;
-   color: #d3d3d3;
+    color: #d3d3d3;
     font-weight: bolder;
     transition: 2s;
 }
@@ -51,7 +51,7 @@ td {
 
 
 table {
-     background-image: linear-gradient(to bottom right,#3d3333 , #606060);
+    background-image: linear-gradient(to bottom right, #3d3333, #606060);
     margin: 2% 15% 0% 15%;
     max-width: 89%;
     border-radius: 30px;
@@ -154,7 +154,7 @@ a.fbinner {
 }
 
 a:hover.fbinner {
-    color:black;
+    color: black;
     background-position: right center;
     transition: 0.5s;
 
@@ -163,7 +163,7 @@ a:hover.fbinner {
 /*-----------------EXTRA CSS TABLE--------------*/
 
 .thead {
-    background: linear-gradient(90deg,#070707,#2d2d2d,#4f4f4f);
+    background: linear-gradient(90deg, #070707, #2d2d2d, #4f4f4f);
 }
 
 td.time {
@@ -189,12 +189,12 @@ footer {
     font-family: 'bangers', monospace;
     margin: 5px;
     font-size: 22px;
-
+    transition: 2s
 }
 
 .current {
     background: #4776E6;
-    background: linear-gradient(to right,#161616,#494949);
+    background: linear-gradient(to right, #161616, #494949);
 
     color: #dbdbdb;
 }
@@ -237,17 +237,16 @@ footer {
     color: white;
 }
 
-button.night{
+button.night {
     visibility: hidden;
 }
 
-button.day{
-    margin-left:90%;
+button.day {
+    margin-left: 90%;
     margin-top: -20;
     margin-bottom: -20;
     font-size: 20px;
     background: transparent;
-    color:white;
+    color: white;
     border: 0px solid transparent;
 }
-
