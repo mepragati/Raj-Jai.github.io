@@ -110,7 +110,7 @@ button:hover{
 }
 
 .fa-facebook-f:hover {
-    background: #3b5998;
+    background: linear-gradient(90deg ,#0696ca,#0656cf);
     color: white;
 }
 
@@ -127,5 +127,9 @@ button:hover{
 
 .fa-at:hover {
     background:#ac14ff;
+    color: white;
+}
+.fa-instagram:hover{
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
     color: white;
 }
