@@ -2,7 +2,7 @@
 body {
     margin: 5;
     padding: 5;
-   background: linear-gradient(75deg, #6d78ff, #00ffb8);
+    background: linear-gradient(75deg, #6d78ff, #00ffb8);
     background-repeat: no-repeat;
     font-family: 'Righteous';
 }
@@ -70,13 +70,13 @@ footer {
 
 th {
     color: black;
-  background:transparent;
+    background: transparent;
     padding: 2 4;
 }
 
 button {
     padding: 4 6;
-  background-image: linear-gradient(-225deg, #D4FFEC 0%, #57F2CC 48%, #4596FB 100%);
+    background-image: linear-gradient(-225deg, #D4FFEC 0%, #57F2CC 48%, #4596FB 100%);
     background-size: 200%;
     background-position: left;
     border: 0.5px solid trasparent;
@@ -87,8 +87,8 @@ button {
     border-radius: 6px;
 }
 
-button:hover{
-    background-position:right;
+button:hover {
+    background-position: right;
 }
 
 
@@ -110,7 +110,7 @@ button:hover{
 }
 
 .fa-facebook-f:hover {
-    background: linear-gradient(90deg ,#0696ca,#0656cf);
+    background: linear-gradient(110deg, #0696ca, #0656cf);
     color: white;
 }
 
@@ -126,10 +126,11 @@ button:hover{
 }
 
 .fa-at:hover {
-    background:#ac14ff;
+    background: #ac14ff;
     color: white;
 }
-.fa-instagram:hover{
-    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+
+.fa-instagram:hover {
+    background: linear-gradient(60deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
     color: white;
 }

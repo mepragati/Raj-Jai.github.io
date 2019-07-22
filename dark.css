@@ -217,7 +217,7 @@ footer {
 }
 
 .fa-facebook-f:hover {
-    background: #3b5998;
+    background: linear-gradient(90deg ,#0696ca,#0656cf);
     color: white;
 }
 
@@ -236,7 +236,10 @@ footer {
     background: #0442bc;
     color: white;
 }
-
+.fa-instagram:hover{
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    color: white;
+}
 button.night {
     visibility: hidden;
 }
