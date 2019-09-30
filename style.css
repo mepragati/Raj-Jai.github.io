@@ -158,7 +158,7 @@ background: linear-gradient(to left, #0072ff, #00c6ff); /* W3C, IE 10+/ Edge, Fi
 }
 
 a:hover.fbinner {
-    color: #3B5998;
+    color: #ffffff;
     background-position: right center;
     transition: 0.5s;
 
