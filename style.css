@@ -161,7 +161,8 @@ a:hover.fbinner {
 /*-----------------EXTRA CSS TABLE--------------*/
 
 .thead {
-    background: linear-gradient(270deg, #6d78ff, #2ee4ea, #20f8b7);
+    background: rgb(216,6,78);
+background: linear-gradient(90deg, rgba(216,6,78,1) 1%, rgba(100,30,230,1) 56%, rgba(0,212,255,1) 98%);
 }
 
 td.time {
