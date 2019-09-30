@@ -81,16 +81,17 @@ td:hover .outer {
 }
 
 .inner {
-    background-image: linear-gradient(to right, #880ef9 20%, #9a0ef9 50%, #fff 50%);
-    padding: 7px;
+    background: #f2709c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #ff9472, #f2709c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #ff9472, #f2709c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 7px;
     color: #fff;
     border: 0.5px solid black;
     background-size: 200% auto;
     border-radius: 12px;
 }
 
-.inner:hover {
-    color: #880ef9;
+.inner:hover { 
     background-position: right center;
     transition: 0.5s;
 }
