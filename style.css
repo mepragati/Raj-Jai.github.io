@@ -161,6 +161,7 @@ a:hover.fbinner {
 /*-----------------EXTRA CSS TABLE--------------*/
 
 .thead {
+Color:white ;
     background: rgb(216,6,78);
 background: linear-gradient(90deg, rgba(216,6,78,1) 1%, rgba(100,30,230,1) 56%, rgba(0,212,255,1) 98%);
 }
