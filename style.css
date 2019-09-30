@@ -2,9 +2,10 @@
 body {
     margin: 5;
     padding: 5;
-    background: rgb(23,251,253);
-background: linear-gradient(0deg,#fe8600,#f83600);
- font-family: 'Righteous';
+background: #70e1f5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffd194, #70e1f5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-family: 'Righteous';
     background-size: 120% 120%;
 }
 
@@ -49,8 +50,10 @@ td {
 
 
 table {
-    background: linear-gradient(0deg,#fe8600,#f83600);
-   margin: 2% 15% 0% 15%;
+    background: #70e1f5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ffd194, #70e1f5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffd194, #70e1f5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin: 2% 15% 0% 15%;
     max-width: 89%;
     border-radius: 30px;
     overflow: hidden;
