@@ -163,8 +163,7 @@ a:hover.fbinner {
 .thead {
 Color:white ;
     background: rgb(216,6,78);
-background: linear-gradient(90deg, rgba(216,6,78,1) 1%, rgba(100,30,230,1) 56%, rgba(0,212,255,1) 98%);
-}
+background: linear-gradient(90deg, rgba(216,6,78,1) 1%, rgba(98,23,236,0.4735943720890925) 53%, rgba(0,212,255,1) 98%);}
 
 td.time {
     font-family: 'bangers', monospace;
