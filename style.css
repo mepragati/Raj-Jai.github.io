@@ -2,8 +2,9 @@
 body {
     margin: 5;
     padding: 5;
-    background: linear-gradient(to right, #6d78ff, #00ffb8);
-    font-family: 'Righteous';
+    background: rgb(23,251,253);
+background: linear-gradient(0deg, rgba(23,251,253,1) 0%, rgba(8,141,239,1) 100%);
+ font-family: 'Righteous';
     background-size: 120% 120%;
 }
 
