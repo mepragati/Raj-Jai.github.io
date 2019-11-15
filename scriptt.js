@@ -1,17 +1,17 @@
 function computer() {
-    alert(" Syllabus :- \n Chapter - 1 to 4");
+    alert(" Syllabus :- \n Chapter - MS Word. ");
 }
 
 function english() {
-    alert("Syllabus :- \n Beehive :- Ch 1 to 3 All Q&A from Eng+ and Beehive \n Poem :- The Road Not Taken,Wind,Rain On The Roof. \n Moments :- Ch :- 1 to 3 Q&A from Eng+ and Moment. \n Writing :- Short Story,Diary Entry,Articles,Coversation,Write few lines on the topic. \n Grammar :- Sentence and part of speech.");
+    alert("Syllabus :- \n Beehive :- Ch 6 & 7 All Q&A from Eng+ and Beehive \n Poem :- No Men Are Foreign,The Duck and the Kangaroo. \n Moments :- Ch :- 6 & 7 Q&A from Eng+ and Moment. \n Writing :- Complete the story,Diary Entry,Articles, Conversation,Description. \n Grammar :- Error,Jumbled word..");
 }
 
 function maths() {
-    alert(" Syllabus :- \n NCERT \n Chapter:- 1 - Number System \n Chapter:- 2 - Polynomials \n Chapter:- 3 - Coordinate Geometry \n Chapter:- 4 - Linear Equation in 2 Variable \n Chapter:- 12 - Heron's Formula.");
+    alert(" Syllabus :- \n Quadrilateral, Triangle and Congruence,Volume and Surface Area.");
 }
 
 function science() {
-    alert(" Syllabus :- \n Physics :- \n Chapter- 1 - Motion \n Chapter - 2 - Force and Laws of Motions \n Chemistry :- \n Chapter 1 - Matter in our surroundig \n Biology :- \n Chapter 1 - Cell \n Chapter 2 - Tissue \n Chapter 3 - Diversity in Living Organism");
+    alert(" Syllabus :- \n Physics :- \n Gravitation\n Chemistry :- \n Chapter 1 - Matter in our surroundig \n Biology :- \n Chapter 1 - Cell \n Chapter 2 - Tissue \n Chapter 3 - Diversity in Living Organism");
 }
 
 function sanskrit() {
