@@ -11,7 +11,7 @@ function maths() {
 }
 
 function science() {
-    alert(" Syllabus :- \n Physics :- \n Gravitation\n Chemistry :- \n Chapter 1 - Matter in our surroundig \n Biology :- \n Chapter 1 - Cell \n Chapter 2 - Tissue \n Chapter 3 - Diversity in Living Organism");
+    alert(" Syllabus :- \n Physics :- \n Chapter 3:- Gravitation \n Chapter 4:- Work and Energy \n Chemistry :- \n Chapter 1 - Matter in our surrounding \n Chapter 2:- Is Matter Around Us Pure? \n Biology :- \n Chapter Last- Why do we fall ill? ");
 }
 
 function sanskrit() {
@@ -19,7 +19,7 @@ function sanskrit() {
 }
 
 function sst() {
-    alert(" Syllabus :- \n Geography :- \n Chapter 1 - Size and Location \n Chapter 2 - Physical Feature of India \n History :- \n Nhi pata kisi ko pata hai toh bata do \n Civics :- \n Nhi pata kisi ko pata hai toh bata do");
+    alert(" Syllabus :- \n Geography :- \n Nhi pata kisi ko pata hai toh bata do \n History :- \n Nhi pata kisi ko pata hai toh bata do \n Civics :- \n Nhi pata kisi ko pata hai toh bata do \n Economics:- \n Sayad POVERTY hoga ");
 }
 var myArray = ['Joy', 'Happiness', 'Peace', 'Hope', 'Javascript', 'Html', 'Css'];
 var rand = Math.floor(Math.random() * myArray.length);
