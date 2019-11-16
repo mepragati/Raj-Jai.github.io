@@ -2,7 +2,7 @@
 body {
     margin: 5;
     padding: 5;
-    background: linear-gradient(75deg, #1CD8D2, #93EDC7);
+    background: linear-gradient(75deg, #9796f0, #fbc7d4);
     background-repeat: no-repeat;
     font-family: 'Righteous';
 }
@@ -48,7 +48,7 @@ td {
 }
 
 table {
-    background: linear-gradient(to right bottom, #6d78ff, #00ffb8);
+    background: linear-gradient(to right bottom, #fbc7d4, #9796f0);
     margin: 9 auto;
     max-width: 89%;
     border-radius: 20px;
