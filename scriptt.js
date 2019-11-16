@@ -7,7 +7,7 @@ function english() {
 }
 
 function maths() {
-    alert(" Syllabus :- \n Quadrilateral, Triangle and Congruence,Volume and Surface Area.");
+    alert(" Syllabus :- \n Chapter 8:- Triangle \n Chapter 9 :- Congruence \n Chapter 10:- Quadrilateral \n Chapter 15 :- Volume and Surface Area.");
 }
 
 function science() {
@@ -15,7 +15,7 @@ function science() {
 }
 
 function sanskrit() {
-    alert(" Syllabus :- \n Nhi pata kisi ko pata hai toh bata do");
+    alert(" Syllabus :- \n. Sanskrit :- Pata karke kya karoge bina padhe hi toh Exam dena hai. \n Hindi :- Pata karke kya kar loge jab fail hi hona hai. ");
 }
 
 function sst() {
