@@ -48,7 +48,7 @@ td {
 }
 
 table {
-    background: linear-gradient(to right bottom, #fbc7d4, #9796f0);
+    background: linear-gradient(to left, #ff416c, #ff4b2b);
     margin: 9 auto;
     max-width: 89%;
     border-radius: 20px;
