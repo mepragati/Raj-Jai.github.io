@@ -1,25 +1,25 @@
 function computer() {
-    alert(" Syllabus :- \n Chapter - MS Word. ");
+    alert(" Syllabus :- \n Chapter - MS Powerpoint. ");
 }
 
 function english() {
-    alert("Syllabus :- \n Beehive :- Ch 6 & 7 All Q&A from Eng+ and Beehive \n Poem :- No Men Are Foreign,The Duck and the Kangaroo. \n Moments :- Ch :- 6 & 7 Q&A from Eng+ and Moment. \n Writing :- Complete the story,Diary Entry,Articles, Conversation,Description. \n Grammar :- Error,Jumbled word..");
+    alert("Syllabus :- \n Beehive :- Ch 8 & 9 All Q&A from Eng+ and Beehive \n Poem :- On Killing A Tree,The Snake Trying . \n Moments :- Ch :- 8 & 9 Q&A from Eng+ and Moment. \n Writing :- Complete the story,Diary Entry,Articles, Formal Letter. \n Grammar :- Error,Jumbled word..");
 }
 
 function maths() {
-    alert(" Syllabus :- \n Chapter 8:- Triangle \n Chapter 9 :- Congruence \n Chapter 10:- Quadrilateral \n Chapter 15 :- Volume and Surface Area.");
+    alert(" Syllabus :- \n Chapter 10:- Quadrilateral\n Chapter 11 :- Area Of Paralellogram\n Chapter 15 :- Volume and Surface Area.");
 }
 
 function science() {
-    alert(" Syllabus :- \n Physics :- \n Chapter 3:- Gravitation \n Chapter 4:- Work and Energy \n Chemistry :- \n Chapter 1 - Matter in our surrounding \n Chapter 2:- Is Matter Around Us Pure? \n Biology :- \n Chapter Last- Why do we fall ill? ");
+    alert(" Syllabus :- \n Physics :- \n Chapter 4:- Work and Energy \n Chapter 5:- Sound \n Chemistry :- \n Chapter 3 - Atoms and Molecules \n Biology :- \n Chapter Last- Natural Resource. ");
 }
 
 function sanskrit() {
-    alert(" Syllabus :- \n. Sanskrit :- Pata karke kya karoge bina padhe hi toh Exam dena hai. \n Hindi :- Pata karke kya kar loge jab fail hi hona hai. ");
+    alert(" Syllabus :- \n. Sanskrit :- Don't Know\n Hindi :- Don't know 🙅‍♂️ ");
 }
 
 function sst() {
-    alert(" Syllabus :- \n Geography :- \n Nhi pata kisi ko pata hai toh bata do \n History :- \n Nhi pata kisi ko pata hai toh bata do \n Civics :- \n Nhi pata kisi ko pata hai toh bata do \n Economics:- \n Sayad POVERTY hoga ");
+    alert(" Syllabus :- \n Geography :- \n Chapter: - Climate\n History :- \n Nhi pata kisi ko pata hai toh bata do \n Civics :- \n Nhi pata kisi ko pata hai toh bata do \n Economics:- \n Sayad POVERTY hoga ");
 }
 var myArray = ['Joy', 'Happiness', 'Peace', 'Hope', 'Javascript', 'Html', 'Css'];
 var rand = Math.floor(Math.random() * myArray.length);
