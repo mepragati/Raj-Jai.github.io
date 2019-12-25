@@ -78,7 +78,7 @@ th {
 }
 
 button {
-Color:white;
+Color:#d9f6ff;
     padding: 4 6;
     background-color: #FF9A8B;
 background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
@@ -140,7 +140,7 @@ button:hover {
     color: white;
 }
 .fa-exchange-alt{
-Color:#d9f6ff ;
+Color:black ;
     background: transparent;
     border: 0;
     padding: 0 0;
