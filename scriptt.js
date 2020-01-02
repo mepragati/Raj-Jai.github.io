@@ -11,7 +11,7 @@ function maths() {
 }
 
 function science() {
-    alert(" Syllabus :- \n Physics :- \n Chapter 4:- Work and Energy \n Chapter 5:- Sound \n Chemistry :- \n Chapter 3 - Atoms and Molecules \n Biology :- \n Chapter Last- Natural Resource. ");
+    alert(" Syllabus :- \n Physics :- \n Chapter 4- Work and Energy \n Chapter 5- Sound \n Chemistry :- \n Chapter 3 - Atoms and Molecules \n Biology :- \n Chapter Last- Natural Resource. ");
 }
 
 function sanskrit() {
@@ -19,7 +19,7 @@ function sanskrit() {
 }
 
 function sst() {
-    alert(" Syllabus :- \n Geography :- \n Chapter: - Climate\n History :- \n Nhi pata kisi ko pata hai toh bata do \n Civics :- \n Nhi pata kisi ko pata hai toh bata do \n Economics:- \n Sayad POVERTY hoga ");
+    alert(" Syllabus :- \n Geography :- \n Chapter- Climate\n History :- \n Nhi pata kisi ko pata hai toh bata do \n Civics :- \n Nhi pata kisi ko pata hai toh bata do \n Economics:- \n Chapter- Poverty");
 }
 var myArray = ['Joy', 'Happiness', 'Peace', 'Hope', 'Javascript', 'Html', 'Css'];
 var rand = Math.floor(Math.random() * myArray.length);
