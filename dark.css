@@ -1,0 +1,262 @@
+/*-------BODY-------*/
+body {
+    margin: 5;
+    padding: 5;
+    background-color: #000000;
+    background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+    font-family: 'Righteous';
+    background-size: 120% 120%;
+}
+
+/*-----------------HEADER-------------------*/
+
+div.head {
+    text-align: center;
+    color: #d3d3d3;
+    transition: 2s;
+}
+
+a.schoollink {
+    text-decoration: none;
+    color: #d3d3d3;
+    font-weight: bolder;
+    transition: 2s;
+}
+
+a.schoollink:hover {
+    border-bottom: 2px double #d3d3d3;
+}
+
+.developedtext {
+    color: #d3d3d3;
+    font-family: 'bangers', monospace;
+    font-size: 18px;
+    word-spacing: 3px;
+    margin-top: 2px;
+    margin-bottom: -4px;
+    text-align: center;
+    transition: 2s;
+}
+
+#love {}
+
+/*---------------TABLE------------*/
+table,
+th,
+td {
+    text-align: center;
+    border: 1px solid #dddede;
+    border-collapse: collapse;
+}
+
+
+table {
+    background-image: linear-gradient(to bottom right, #3d3333, #606060);
+    margin: 2% 15% 0% 15%;
+    max-width: 89%;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 2px 2px 2px;
+    color: #d3d3d3;
+    transition: 2s;
+}
+
+td {
+    padding: 7px;
+}
+
+/*-------------TABLE SIMPLE DATA-------------------*/
+td .outer {
+    font-family: 'Lobster', cursive;
+    visibility: hidden;
+    text-align: center;
+    width: 170px;
+    position: absolute;
+
+}
+
+td:hover .outer {
+    visibility: visible;
+}
+
+.inner {
+    background-image: linear-gradient(to right, #3d3333, #606060);
+    padding: 7px;
+    color: #fff;
+    border: 0.5px solid #d3d3d3;
+    background-size: 200% auto;
+    border-radius: 12px;
+}
+
+.inner:hover {
+    color: #d3d3d3;
+    background-position: right center;
+    transition: 0.5s;
+}
+
+/*------------------TABLE TELEPHONE DATA---------------*/
+td .telouter {
+    font-family: 'Lobster', cursive;
+    visibility: hidden;
+    text-align: center;
+    width: 170px;
+    position: absolute;
+}
+
+td:hover .telouter {
+    visibility: visible;
+}
+
+a.telinner {
+    background-image: linear-gradient(to right, #2066f3 50%, #fff 50%);
+    padding: 7px;
+    text-decoration: none;
+    color: white;
+    border: 0.5px solid #2066f3;
+    background-size: 200% auto;
+    border-radius: 12px;
+
+
+}
+
+a:hover.telinner {
+    color: #2066f3;
+    background-position: right center;
+    transition: 0.5s;
+
+}
+
+/*------------------TABLE FACEBOOK DATA---------------*/
+
+
+td .fbouter {
+    font-family: 'Lobster', cursive;
+    visibility: hidden;
+    text-align: center;
+    width: 170px;
+    position: absolute;
+}
+
+td:hover .fbouter {
+    visibility: visible;
+}
+
+a.fbinner {
+    background-image: linear-gradient(to right, #2e3760 50%, #adadad 50%);
+    padding: 7px;
+    text-decoration: none;
+    color: white;
+    border: 0.5px solid #3b5998;
+    background-size: 200% auto;
+    border-radius: 12px;
+
+
+}
+
+a:hover.fbinner {
+    color: black;
+    background-position: right center;
+    transition: 0.5s;
+
+}
+
+/*-----------------EXTRA CSS TABLE--------------*/
+
+.thead {
+    background: linear-gradient(90deg, #070707, #2d2d2d, #4f4f4f);
+}
+
+td.time {
+    font-family: 'bangers', monospace;
+    font-size: 20px;
+}
+
+td.gap {
+    font-weight: bolder;
+    font-size: 40PX;
+}
+
+footer {
+    text-align: center;
+    margin: 0 -8;
+    color: #d3d3d3;
+    transition: 2s;
+}
+
+#sunday {
+    text-align: center;
+    color: aqua;
+    font-family: 'bangers', monospace;
+    margin: 5px;
+    font-size: 22px;
+    transition: 2s
+}
+
+.current {
+    background: #4776E6;
+    background: linear-gradient(to right, #161616, #494949);
+
+    color: #dbdbdb;
+}
+
+.fab,
+.fas {
+    font-size: 26px;
+    padding: 10px;
+    margin: 0;
+    background: black;
+    color: white;
+    margin: 2 0;
+    transition: 0.5s;
+}
+
+.fab:hover,
+.fas:hover {
+    border-bottom: 2px solid black;
+    margin-bottom: -2px;
+}
+
+.fa-facebook-f:hover {
+    background: linear-gradient(90deg ,#0696ca,#0656cf);
+    color: white;
+}
+
+.fa-quora:hover {
+    background: #a62100;
+    color: white;
+
+}
+
+.fa-github:hover {
+    background: #333;
+    color: white;
+}
+
+.fa-at:hover {
+    background: #0442bc;
+    color: white;
+}
+.fa-instagram:hover{
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    color: white;
+}
+.fa-exchange-alt{
+    color: white;
+    background: transparent;
+    border: 0;
+    padding: 0 0;
+    margin: 0 0;
+}
+button.night {
+    visibility: hidden;
+}
+
+button.day {
+    margin-left: 90%;
+    margin-top: -20;
+    margin-bottom: -40;
+    font-size: 20px;
+    background: transparent;
+    color: white;
+    border: 0px solid transparent;
+}
