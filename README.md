@@ -1,2 +1,2 @@
 # Raj-Jai.github.io
-It is a simple HTML Routine.
+It is Simple Mixed up Html-Css page.
